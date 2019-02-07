@@ -11,6 +11,6 @@ class Course
     @@all.clear
   end 
   def get_page
-    html = open('http://www.google.com')
+    html = open('http://learn-co-curriculum.github.io/site-for-scraping/courses')
   end 
 end 
