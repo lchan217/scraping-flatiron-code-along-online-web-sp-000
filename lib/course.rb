@@ -11,5 +11,6 @@ class Course
     @@all.clear
   end 
   def get_page
-    
+    html = open('http://www.google.com')
+  end 
 end 
